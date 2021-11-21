@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Images/Hero-Bg.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    height: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: goldenrod;
+    padding-left: 100px;
+    padding-right: 100px;
+    position:sticky;
+}
+.navbar-name h1{
+    letter-spacing: 0.3rem;
+}
+.navbar-list {
+    display: flex;
+}
+.navbar-list ul{
+    list-style: none;
+    display: flex;
+}
+.navbar-list ul li {
+    margin-right: 30px;
+    letter-spacing: 0.1rem;
+    /* border-bottom: 0.5px solid goldenrod; */
+    padding-top: 7px;
+    border-radius: 2px;
+}
+.navbar-list ul li:hover {
+    cursor: pointer;
+    border-bottom: 4px solid goldenrod;
+    border-radius: 7px;
+}
+#veg-symbol img {
+    width: 30px;
+    height: 30px;
+}
+
+/* ------------Hero------------ */
+.hero {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding-top: 16%;
+    background: linear-gradient(30deg, rgba(124, 27, 27, 0.486) 40%,rgba(255, 255, 255, 0) 40%);
+    background-color: rgba(0, 0, 0, 0.250);
+    /* border: 2px solid #fff; */
+}
+.hero h1{
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    color: rgb(209, 208, 208);    
+}
+.hero h1 span{
+    background-color: rgba(218, 165, 32, 0.534);
+    color: #fff;
+}
+.hero button{
+    width: 120px;
+    height: 25px;
+    margin: 20px;
+    letter-spacing: 0.1rem;
+    background-color: rgb(218, 165, 32);
+    color: #fff;
+    border-color: goldenrod;
+    border-radius: 10px;
+}
+.hero button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid goldenrod;
+}
